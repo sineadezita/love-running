@@ -48,6 +48,10 @@ h1, h2, h3 {
 
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 
 header {
@@ -257,12 +261,17 @@ main {
     Each div will expand to fill the available space on its row.*/
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup time dives over the background image */
+    /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
 
 #times h3 {
     color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%
 }
 
 /* Footer */
