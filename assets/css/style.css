@@ -171,6 +171,10 @@ main {
 
     margin-top: 47px;
 
+    /* Enable flex properties for child elements*/
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* Hero Section */
@@ -277,6 +281,27 @@ main {
 #photos {
     line-height: 0;
 }
+
+/* Form */
+#signup {
+    background-image: url('../images/signup-image.webp');
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
 
 /* Footer */
 
